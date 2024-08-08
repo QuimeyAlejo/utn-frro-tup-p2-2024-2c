@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="UTN_logo.jpg">
+    <title>Ejer 3</title>
+</head>
+
+<body>
+    <div>
+        <h1>Ejer 1</h1>
+        <form action="" method="POST" target="_self">
+            <fieldset>
+                <label>Nombre</label>
+                <input type="text" name="firstname" placeholder="Ingrese su nombre..."></input>
+                <label>Edad</label>
+                <input type="number" name="number" placeholder="Ingrese su edad..."></input>
+
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="Borrar">
+            </fieldset>
+
+        </form>
+    </div>
+
+    <div>
+        <h1>Ejer 2</h1>
+        <form action="" method="post" target="_self">
+            <fieldset>
+                <label>Correo</label>
+                <input type="email" id="mail" name="email" required placeholder="correo@correo.com">
+                <input type="password" name="contraseña" id="contraseña" size="15" maxlength="12" placeholder="Ingrese una contraseña">
+                <input type="password" name="repetirContraseña" size="15" maxlength="12" id="repetirContraseña"
+                    placeholder="Repita la contraseña">
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
+    </div>
+    <h1>Ejer 3</h1>
+    <form action="link" method="post" target="_self">
+        <fieldset>
+            <label for="firstname">Nombre</label>
+            <input placeholder="Ingrese su nombre">
+            <label for="email">Correo</label>
+            <input type="email" id="mail" name="email" required placeholder="correo@correo.com">
+            <label for="">DNI</label>
+            <input type="number" required placeholder="ingrese su dni">
+            <input type="file" size="400" placeholder="Ingrese su cv">
+            <textarea name="Comentario" rows="10" cols="40">Comente su cv</textarea>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="Borrar">
+
+        </fieldset>
+    </form>
+    <div>
+        <h1>Ejer 4</h1>
+        <form action="" target="_self">
+            <fieldset>
+                <label>Correo</label>
+                <input type="email" id="mail" name="email" required placeholder="correo@correo.com">
+                <input type="password" name="contraseña" id="contraseña" size="12" placeholder="Ingrese una contraseña">
+                <input type="checkbox" name="opcion" value="1">Harry Potter 4
+                <input type="checkbox" name="opcion" value="2">Star Wars Episode III
+                <input type="checkbox" name="opcion" value="3"> Lord Of The Rings The return of the king
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <h1>Ejer 5</h1>
+        <form>
+            <fieldset>
+                <label for="">Seleccione que sistema operativo mas utiliza</label>
+                <input type="radio" value="1" name="opcion"> Windows 10
+                <input type="radio" name="opcion" value="2"> Kalilinux
+                <input type="radio" name="opcion" value="3"> MacOs
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <h1>Ejer 6</h1>
+        <form>
+            <fieldset>
+                <h6>Seleccione los mails correspondientes</h6>
+                <select name="mail" multiple>
+                    <option value="1">HarryPotter@howarts.com.uk</option>
+                    <option value="2">gandalfElBlanco@lacomarca.com</option>
+                    <option value="3">DarthVader@deathStar.com</option>
+                    <option value="4">flash@centralcity.usa</option>
+                </select>
+            </fieldset>
+        </form>
+        
+    </div>
+    <div>
+        <h1>Ejer 7</h1>
+        <form>
+            <fieldset>
+
+                <label>Seleccionar pais</label>
+                <select name="" id="">
+                    <optgroup label="America">
+                        <option value="America">Argentina</option>
+                        <option value="America">Brasil</option>
+                        <option value="America">Uruguay</option>
+
+                    </optgroup>
+                    <optgroup label="Europa">
+                        <option value="Europa">España</option>
+                        <option value="Europa">Italia</option>
+                        <option value="Europa">Portugal</option>
+
+                    </optgroup>
+                </select>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <h1>Ejer 8</h1>
+        <form action="" method="post" value="_target">
+            <fieldset>
+                <legend>Calificacion del sitio</legend>
+        
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="rating">Votar el sitio</label>
+                <select id="rating" name="rating">
+                    <option value="excelente">Excelente </option>
+                    <option value="muy_bueno">Muy Bueno</option>
+                    <option value="bueno">Bueno</option>
+                    <option value="regular">Regular</option>
+                    <option value="malo">Malo</option>
+                </select>
+        
+                <input type="submit" value="ENVIAR">
+            </fieldset>
+        </form>
+        
+    </div>
+</body>
+
+
+</html>
